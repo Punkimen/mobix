@@ -1,0 +1,69 @@
+// btn
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  font-family: $font-family-bold;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 23px;
+  padding-left: 23px;
+
+  &--yellow {
+    background-color: #FFF500;
+    color: #0A0A0A;
+  }
+
+  &--transparent {
+    color: #fff;
+    border: 1px solid #FFF500;
+    background: #0A0A0A;
+  }
+  &--black {
+    background-color: #0A0A0A;
+    color: #fff;
+    transition: background-color .2s linear, color .2s linear;
+    &:hover {
+      background-color: #FFF500;
+      color: #0A0A0A;
+    }
+  }
+}
+.stocksBtn{
+  margin-top: 30px;
+}
+.productAddToCart{
+  margin-top: 20px;
+  height: 69px;
+  width: 100%;
+  @media(max-width: 1400px){
+    height: 60px;
+  }
+  @media(max-width: 575px){
+    height: 50px;
+  }
+}
+.catsBtn {
+  margin-left: auto;
+  margin-top: 16px;
+  column-gap: 10px;
+  padding-left: 28px;
+  padding-right: 28px;
+}
+.orderFormBtn{
+  width: 100%;
+}
+.productBtn{
+  height: 69px;
+  width: 270px;
+  margin-top: 25px;
+  @media(max-width: 1400px){
+    height: 60px;
+  }
+  @media(max-width: 575px){
+    height: 50px;
+    width: 100%;
+  }
+}
